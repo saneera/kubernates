@@ -10,8 +10,7 @@ You will need to do the following:
 - Set up cluster networking with flannel.
 
 #### Note:
-When installing kubeadm, kubectl, and kubelet, use version 1.12.7-00. The older versions currently have a bug that may interfere with the installation.
-If you need additional guidance, click the icon next to each task below for more information on how to complete each task. You can also check out the solution video for a detailed walkthrough.
+When installing kubeadm, kubectl, and kubelet, use version 1.12.7-00. The older versions currently have a bug that may interfere with the installation. If you need additional guidance, click the icon next to each task below for more information on how to complete each task. 
 
 > Install Docker on all three nodes.
 - Do the following on all three nodes:
@@ -99,7 +98,6 @@ Verify that all three of your nodes are listed. It will look something like this
     ip-10-0-1-102   NotReady   <none>   8s    v1.12.2
     ip-10-0-1-103   NotReady   <none>   5s    v1.12.2
 ```
-
 
  > Note that the nodes are expected to be in the NotReady state for now.
 
