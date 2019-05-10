@@ -22,12 +22,14 @@ If you need additional guidance, click the icon next to each task below for more
       deb [arch=amd64] https://download.docker.com/linux/ubuntu \$(lsb_release -cs) \stable"
       sudo apt-get update
       sudo apt-get install -y docker-ce=18.06.1~ce~3-0~ubuntu
-      sudo apt-mark hold docker-ce
-  
-  Verify that Docker is up and running with:
-      sudo systemctl status docker
-  Make sure the Docker service status is active (running)!
+      sudo apt-mark hold docker-ce  
 ```
+
+  Verify that Docker is up and running with:
+  ```
+      sudo systemctl status docker
+  ```   
+  Make sure the Docker service status is active (running)!
 
 
 > Install Kubeadm, Kubelet, and Kubectl on all three nodes.
